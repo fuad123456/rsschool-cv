@@ -45,3 +45,26 @@ ___Other___
 2. WebStorm
 
 ---
+## Code Example from Code Wars
+__Exclamation marks series: Put the exclamation marks and question marks on the balance - are they balanced?__
+
+_Each exclamation mark's weight is 2; each question mark's weight is 3. Putting two strings left and right on the balance - are they balanced?_
+_If the left side is more heavy, return "Left"; if the right side is more heavy, return "Right"; if they are balanced, return "Balance"._
+
+```
+const weightMap = {
+  "!": 2,
+  "?": 3,
+}
+
+function balance(left,right){
+   let l = left.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+   let r = right.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+   if (r == l)
+      return "Balance"
+   else if (r > l)
+      return "Right"
+   else
+      return "Left"
+}
+```
