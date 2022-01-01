@@ -15,3 +15,33 @@ I want to become a Senior Software Engineer, and on my way I am ready to overcom
 Just as I coped with the beginning in the field of IT, I believe that in sha Allah, I will achieve my goal!
 
 ---
+## Skills
+
+___HTML___
+1. HTML5
+2. Pug(jade)
+3. Handlebars
+
+___CSS___
+1. Sass
+2. SCSS
+
+___JavaScript___
+1. OOP
+2. Vue (15%)
+3. React(50%)
+	Redux(thunk)
+4. Svelte(10%)
+   
+___Node JS___
+1. ExpressJS
+
+___Git___
+1. Github
+2. Gitlab
+
+___Other___
+1. VScode
+2. WebStorm
+
+---
