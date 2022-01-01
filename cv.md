@@ -68,3 +68,7 @@ function balance(left,right){
       return "Left"
 }
 ```
+## Languages:
+	- English (A1)
+	- Arabic (A2)
+	- Ukrainian(B1)
