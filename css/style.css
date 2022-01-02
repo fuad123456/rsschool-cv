@@ -47,6 +47,9 @@ header ul:last-child{
 a{
 	text-decoration: none;
 }
+main{
+	width : 100%;
+}
 .info{
 	flex-direction: column;
 	justify-content: space-between;
@@ -125,6 +128,27 @@ a{
 .max-pad{
 	padding: 20px 80px;
 }
+footer{
+	width: 100%;
+	background-color:rgb(94, 53, 53);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color:white;
+	height: 100%;
+}
+footer img{
+	width: 100px;
+}
+
+
+
+
+
+
+
+
 .tac{
 	text-align: center;
 }
