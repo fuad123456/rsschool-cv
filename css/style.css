@@ -50,6 +50,11 @@ a{
 main{
 	width : 100%;
 }
+.m-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .info{
 	flex-direction: column;
 	justify-content: space-between;
@@ -66,7 +71,7 @@ main{
 	margin-bottom: 40px;
 }
 .logo img {
-	width: 50%;
+	width: 100%;
     height: 100%;
 	border-radius: 50%;
 	}
@@ -77,6 +82,19 @@ main{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
+}
+.list{
+	list-style: none;
+	padding: 0;
+
+
+}
+.list-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 15px;
 }
 .info-title{
 	font-size: 24px;
@@ -113,7 +131,7 @@ main{
 }
 
 .info_item img{
-	width: 30px;
+	width: 40px;
 	margin-right: 10px;
 	color: aqua;
 }
@@ -131,14 +149,23 @@ main{
 footer{
 	width: 100%;
 	background-color:rgb(94, 53, 53);
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	padding:20px auto;
 	color:white;
 	height: 100%;
+
+}
+.footer-container{
+	width: 80%;
+	max-width: 1000px;
+	min-height: 40px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 footer img{
+
 	width: 100px;
 }
 
@@ -154,7 +181,7 @@ footer img{
 }
 .hr{
 	background-color: white;
-	width: 80%;
+	width: 100%;
 	height:2px;
 }
 .mr-20{
