@@ -2,8 +2,8 @@ body{
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center;
+	align-items: center; */
 	padding: 0;
 	background-color: rgb(243, 240, 240);
 	margin:0;
@@ -145,7 +145,20 @@ main{
 }
 .max-pad{
 	padding: 20px 80px;
+
 }
+pre{
+	font-size: 14px;
+	border: 2px solid grey;
+
+	border-left: 12px solid green;
+	border-radius: 5px;
+	background-color: black;
+	padding: 0;
+	margin-top: 20px;
+	color: #fff;
+}
+
 footer{
 	width: 100%;
 	background-color:rgb(94, 53, 53);

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<pre>
+		<code>
+const weightMap = {
+	"!": 2,
+	"?": 3,
+	}
+	
+function balance(left,right){
+	let l = left.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+	let r = right.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+	if (r == l)
+	return "Balance"
+	else if (r > l)
+	return "Right"
+	else
+	return "Left"
+	}
+		</code>
+	</pre>
+</body>
+</html>

@@ -129,6 +129,34 @@
 				</div>
 				<div class="hr"></div>
 				<div>
+					<h2 class="tac">Code from Codewars</h2>
+					<h4>Exclamation marks series: Put the exclamation marks and question marks on the balance - are they balanced?</h4>
+					<em>
+						Each exclamation mark's weight is 2; each question mark's weight is 3. Putting two strings left and right on the balance - are they balanced?_
+							If the left side is more heavy, return "Left"; if the right side is more heavy, return "Right"; if they are balanced, return "Balance".
+					</em>
+					<pre>
+						<code>
+	const weightMap = {
+		"!": 2,
+		"?": 3,
+		}
+		
+	function balance(left,right){
+		let l = left.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+		let r = right.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+		if (r == l)
+		return "Balance"
+		else if (r > l)
+		return "Right"
+		else
+		return "Left"
+	}
+						</code>
+					</pre>
+				</div>
+				<div class="hr"></div>
+				<div>
 					<h2 class="tac">Education</h2>
 					<p>From 2002 to 2006 I studied at the Ukrainian Academy of Printing with a degree in Enterprise Economics.
 						Graduated from accounting courses in 2010.</p>
@@ -143,7 +171,7 @@
 				<div class="hr"></div>
 				<div>
 					<h2 class="tac">Working Experience</h2>
-					<p>Beginning in September 2018, I trained as a tester. After that, 1 year and 7 months Rabol by the layout designer at <a href="http://https://www.namesilo.com/">NAMESILO</a></p>
+					<p>Beginning in September 2018, I trained as a tester. After that, 1 year and 7 months worked by the layout designer at <a href="http://https://www.namesilo.com/">NAMESILO</a></p>
 					<h5>My work done in this company</h4>
 					<ul>
 						<li><a href="https://www.namesilo.com/email/titan">Titan Email</a></li>
