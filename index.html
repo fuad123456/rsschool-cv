@@ -4,105 +4,209 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<div class="info max-pad">
-			<div class="logo">
-				<img src="img/logo.jpg" alt="haker">
-			</div>
-			<div class="info-detail">
-				<div class="info_item mb-20">
-					<div class="info-title">Contacts</div>
-					<div class="row mb-20">
-						<img src="img/location1.png" alt="location">
-						<div class="lh-20">
-							<b>Country</b>:Russia<br>
-							<b>City</b>:Simferopol<br>
-							<b>Street</b>:Some street<br>
-							<b>Home </b>: 45
-						</div>
+	<header>
+		<div class="header-container">
+			<nav class="nav">
+				<ul>
+					<li class="nav-item"><a href="#Conatcts">Conatcts</a></li>
+					<li class="nav-item"><a href="#AboutMyself">About Myself</a></li>
+					<li class="nav-item"><a href="#Education">Education</a></li>
+					<li class="nav-item"><a href="#Code">Code</a></li>
+					<li class="nav-item"><a href="#Courses">Courses</a></li>
+					<li class="nav-item"><a href="#Projects">Projects</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="info max-pad">
+				<div class="m-info">
+					<div class="logo">
+						<img src="img/logo.jpg" alt="haker">
 					</div>
-					<div class="row mb-20">
-						<img src="img/mail.svg" alt="location">
-						<div>
-							ismailaga123@gmail.com
-						</div>
-					</div>
-					<div class="row mb-20">
-						<img src="img/telegram.png" alt="location">
-						<div>
-							@IsmailHab
-						</div>
+					
+					<div>
+						<h1 class="lh-40 tac">
+							Ismail Habibov
+						</h1>
+						<div class="hr"></div>
+						<h2 class="tac">Junior Frontend Developer</h2>
 					</div>
 				</div>
-				<div class="info_item mb-20">
-					<div class="info-title">Skills</div>
-					<div class="row mb-20">
-						<img src="img/js.png" alt="Java Script">
-							<div class='skill'>
-								<div class="range"></div>
-							</div>
+
+				<div class="info-detail">
+					<div class="info_item mb-20">
+						<h2 class="info-title" id="Conatcts">Contacts</h2>
+						<ul class="list">
+							<li class="list-item">
+								<div>
+									<img src="img/location1.png" alt="location">
+								</div>
+								<div class="lh-20">
+									<b>Country:</b> Russia
+									<b>City</b>: Simferopol
+									<b>Street</b>: Some street
+									<b>Home </b>: 45
+								</div>
+							</li>
+							<li class="list-item">
+								<div>
+									<img src="img/mail.svg" alt="Mail">
+								</div>
+								<div>
+									ismailaga123@gmail.com
+								</div>
+							</li>
+							<li class="list-item">
+								<div>
+									<img src="img/telegram.png" alt="telegram">
+								</div>
+								<div>
+									@IsmailHab
+								</div>
+							</li>
+						</ul>
 					</div>
-					<div class="row mb-20">
-						<img src="img/css.png" alt="Java Script">
-						<div class='skill'>
-							<div class="range"></div>
-						</div>
-					</div>
-					<div class="row mb-20">
-						<img src="img/html.png" alt="Java Script">
-						<div class='skill'>
-							<div class="range"></div>
-						</div>
-					</div>
-					<div class="row mb-20">
-						<img src="img/VS.png" alt="Java Script">
-						<div class='skill'>
-							<div class="range"></div>
-						</div>
+					<div class="info_item mb-20">
+						<h2 class="info-title">Skills</h2>
+						<ul class="list">
+							<li class="list-item">
+								<div>
+									<img src="img/js.png" alt="Java Script">
+								</div>
+								<div class='skill'>
+									<div class="range"></div>
+								</div>
+							</li>
+							<li class="list-item">
+								<div>
+									<img src="img/react.svg" alt="React">
+								</div>
+								<div class='skill'>
+									<div class="range"></div>
+								</div>
+							</li>
+							<li class="list-item">
+								<div>
+									<img src="img/css.png" alt="CSS">
+								</div>
+								<div class='skill'>
+									<div class="range"></div>
+								</div>
+							</li>
+							<li class="list-item">
+								<div>
+									<img src="img/html.png" alt="Html">
+								</div>
+								<div class='skill'>
+									<div class="range"></div>
+								</div>
+							</li>
+							<li class="list-item">
+								<div>
+									<img src="img/VS.png" alt="Java Script">
+								</div>
+								<div class='skill'>
+									<div class="range"></div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
+				
 			</div>
-			
+			<div class="detail max-pad">
+				
+				<div id="AboutMyself">
+					<h2 class="tac">Personal Profile</h2>
+					<p>I am a junior frontend developer. I have little experience in commercial projects, about a year and a half. I will be glad to participate in any project that will help me pump my skills.</p>
+				</div>
+				<div class="hr" id="Education"></div>
+
+				<div>
+					<h2 class="tac">Education</h2>
+					<p>From 2002 to 2006 I studied at the Ukrainian Academy of Printing with a degree in Enterprise Economics.
+						Graduated from accounting courses in 2010.</p>
+					<h4>I finished the following courses with a wonderful teacher <a href="http://itgid.info">Alexander Lushchenko.</a></h4>
+					<ul>
+						<li>JS Stage 2.0</li>
+						<li>PHP Stage 2.0</li>
+						<li>OOP in JavaScript</li>
+						<li>Node JS</li>
+					</ul>
+				</div>
+        <div class="hr" id="Projects"></div>
+        <div>
+					<h2 class="tac">Working Experience</h2>
+					<p>Beginning in September 2018, I trained as a tester. After that, 1 year and 7 months worked by the layout designer at <a href="http://https://www.namesilo.com/">NAMESILO</a></p>
+					<h5>My work done in this company</h4>
+					<ul>
+						<li><a href="https://www.namesilo.com/email/titan">Titan Email</a></li>
+						<li><a href="https://www.namesilo.com/api-reference">Domain API Reference</a></li>
+						<li><a href="https://www.namesilo.com/about-us">About Us</a></li>
+					</ul>
+				</div>
+				<div class="hr" id="Code"></div>
+        <div>
+					<h2 class="tac">Code from Codewars</h2>
+					<h4>Exclamation marks series: Put the exclamation marks and question marks on the balance - are they balanced?</h4>
+					<em>
+						Each exclamation mark's weight is 2; each question mark's weight is 3. Putting two strings left and right on the balance - are they balanced?_
+							If the left side is more heavy, return "Left"; if the right side is more heavy, return "Right"; if they are balanced, return "Balance".
+					</em>
+					<pre>
+						<code class="preElement">
+	const weightMap = {
+		"!": 2,
+		"?": 3,
+		}
+		
+	function balance(left,right){
+		let l = left.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+		let r = right.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+		if (r == l)
+		return "Balance"
+		else if (r > l)
+		return "Right"
+		else
+		return "Left"
+	}
+						</code>
+					</pre>
+				</div>
+				<div class="hr" ></div>
+				<div class="detail max-pad">
+          <div>
+            <h2 class="tac">Languages</h2>
+              <ul>
+                <li>English</li>
+                <li> Arabic </li>
+                <li> Russian </li>
+                <li>Turkie</li>
+                <li>Ukrainian</li>
+              </ul>
+          </div>
+			</div>
 		</div>
-		<div class="detail max-pad">
-			<h1 class="lh-40 tac">
-				Ismail Habibov
-			</h1>
-			<div class="hr"></div>
-			<h2 class="tac">Junior Frontend Developer</h2>
-			
+	</main>
+	<footer>
+		<div class="footer-container">
+			<div > &copy; 2022</div>
 			<div>
-				<h3 class="tac">Personal Profile</h3>
-				<p>I am a junior frontend developer. I have little experience in commercial projects, about a year and a half. I will be glad to participate in any project that will help me pump my skills.</p>
+				<a href="https://github.com/fuad123456">
+					<img src="img/github.svg" alt="Github">
+				</a>
 			</div>
-			<div class="hr"></div>
 			<div>
-				<h3 class="tac">Education</h3>
-				<p>From 2002 to 2006 I studied at the Ukrainian Academy of Printing with a degree in Enterprise Economics.
-					Graduated from accounting courses in 2010.</p>
-				<h4>I finished the following courses with a wonderful teacher <a href="http://itgid.info">Alexander Lushchenko.</a></h4>
-				<ul>
-					<li>JS Stage 2.0</li>
-					<li>PHP Stage 2.0</li>
-					<li>OOP in JavaScript</li>
-					<li>Node JS</li>
-				</ul>
-			</div>
-			<div class="hr"></div>
-			<div>
-				<h3 class="tac">Working Experience</h3>
-				<p>Beginning in September 2018, I trained as a tester. After that, 1 year and 7 months Rabol by the layout designer at <a href="http://https://www.namesilo.com/">NAMESILO</a></p>
-				<h5>My work done in this company</h4>
-				<ul>
-					<li><a href="https://www.namesilo.com/email/titan">Titan Email</a></li>
-					<li><a href="https://www.namesilo.com/api-reference">Domain API Reference</a></li>
-					<li><a href="https://www.namesilo.com/about-us">About Us</a></li>
-				</ul>
-			</div>
+				<a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs school js" style="background-color:white"></a></div>
 		</div>
-	</div>
+		
+	</footer>
 </body>
 </html>
