@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,7 +31,6 @@
 					<div class="logo">
 						<img src="img/logo.jpg" alt="haker">
 					</div>
-
 					<div>
 						<h1 class="lh-40 tac">
 							Ismail Habibov
@@ -41,7 +39,6 @@
 						<h2 class="tac">Junior Frontend Developer</h2>
 					</div>
 				</div>
-
 				<div class="info-detail">
 					<div class="info_item mb-20">
 						<h2 class="info-title" id="Conatcts">Contacts</h2>
@@ -54,7 +51,7 @@
 									<b>Country:</b> Russia
 									<b>City</b>: Simferopol
 									<b>Street</b>: Some street
-									<b>Home </b>: 45
+									<b>Home</b>: 45
 								</div>
 							</li>
 							<li class="list-item">
@@ -62,7 +59,7 @@
 									<img src="img/mail.svg" alt="Mail">
 								</div>
 								<div>
-									ismailaga123@gmail.com
+									<a href="mailto: ismailaga123@gmail.com">ismailaga123@gmail.com</a>
 								</div>
 							</li>
 							<li class="list-item">
@@ -82,7 +79,7 @@
 								<div>
 									<img src="img/js.png" alt="Java Script">
 								</div>
-								<div class='skill'>
+								<div class="skill">
 									<div class="range"></div>
 								</div>
 							</li>
@@ -90,7 +87,7 @@
 								<div>
 									<img src="img/react.svg" alt="React">
 								</div>
-								<div class='skill'>
+								<div class="skill">
 									<div class="range"></div>
 								</div>
 							</li>
@@ -98,7 +95,7 @@
 								<div>
 									<img src="img/css.png" alt="CSS">
 								</div>
-								<div class='skill'>
+								<div class="skill">
 									<div class="range"></div>
 								</div>
 							</li>
@@ -106,7 +103,7 @@
 								<div>
 									<img src="img/html.png" alt="Html">
 								</div>
-								<div class='skill'>
+								<div class="skill">
 									<div class="range"></div>
 								</div>
 							</li>
@@ -114,7 +111,7 @@
 								<div>
 									<img src="img/VS.png" alt="Java Script">
 								</div>
-								<div class='skill'>
+								<div class="skill">
 									<div class="range"></div>
 								</div>
 							</li>
@@ -174,13 +171,12 @@
 		"!": 2,
 		"?": 3,
 		}
-		
 	function balance(left,right){
-		let l = left.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
-		let r = right.split("").map(e => weightMap[e]).reduce((a, b) => a + b);
+		let l = left.split("").map(e =&gt weightMap[e]).reduce((a, b) =&gt a + b);
+		let r = right.split("").map(e =&gt weightMap[e]).reduce((a, b) =&gt a + b);
 		if (r == l)
 		return "Balance"
-		else if (r > l)
+		else if (r &gt l)
 		return "Right"
 		else
 		return "Left"
