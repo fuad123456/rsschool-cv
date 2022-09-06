@@ -127,7 +127,6 @@
 						and a half. I will be glad to participate in any project that will help me pump my skills.</p>
 				</div>
 				<div class="hr" id="Education"></div>
-
 				<div>
 					<h2 class="tac">Education</h2>
 					<p>From 2002 to 2006 I studied at the Ukrainian Academy of Printing with a degree in Enterprise
@@ -172,11 +171,11 @@
 		"?": 3,
 		}
 	function balance(left,right){
-		let l = left.split("").map(e =&gt weightMap[e]).reduce((a, b) =&gt a + b);
-		let r = right.split("").map(e =&gt weightMap[e]).reduce((a, b) =&gt a + b);
+		let l = left.split("").map(e =&gt; weightMap[e]).reduce((a, b) =&gt; a + b);
+		let r = right.split("").map(e =&gt; weightMap[e]).reduce((a, b) =&gt; a + b);
 		if (r == l)
 		return "Balance"
-		else if (r &gt l)
+		else if (r &gt; l)
 		return "Right"
 		else
 		return "Left"
