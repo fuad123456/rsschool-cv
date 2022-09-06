@@ -195,13 +195,6 @@ footer img{
 	width: 100px;
 }
 
-
-
-
-
-
-
-
 .tac{
 	text-align: center;
 }
@@ -219,6 +212,9 @@ footer img{
 }
 .mt-40{
 	margin-top: 40px;
+}
+.logo-school{
+	background-color:white;
 }
 .lh-20{
 	line-height:20px;
